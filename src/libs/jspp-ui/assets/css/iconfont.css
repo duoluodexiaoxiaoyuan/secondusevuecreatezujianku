@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3265636 */
+  src: url("./iconfont.woff2") format("woff2"),
+    url("./iconfont.woff") format("woff"),
+    url("./iconfont.ttf") format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sousuo:before {
+  content: "\e752";
+}
+
+.icon-xiala:before {
+  content: "\e6b9";
+}
+
+.icon-delete:before {
+  content: "\e699";
+}
+
+.icon-settings:before {
+  content: "\e69a";
+}
+
+.icon-cancel:before {
+  content: "\e698";
+}
